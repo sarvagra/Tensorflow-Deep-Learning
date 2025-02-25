@@ -1,0 +1,1 @@
+## this repo contains notes about tensorflow
