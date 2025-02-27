@@ -78,7 +78,7 @@ tensor_four_d = tf.constant([
     
     ])
 print(tensor_four_d)
-print(tensor_four_d.shape) # (layers,row,depth,column)
+print(tensor_four_d.shape) # (depth,row,column,layers)
 
 # %%  convert an array into tensor
 import numpy as np
@@ -193,4 +193,4 @@ rand_norm=tf.random.normal(
     name=None
 )
 print(rand_norm)
-# %%
+# %% 
